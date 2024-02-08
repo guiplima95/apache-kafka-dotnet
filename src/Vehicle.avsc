@@ -1,0 +1,28 @@
+{
+    "namespace": "Domain.Events",
+    "type": "record",
+    "name": "Vehicle",
+    "fields": [
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "plate",
+            "type": "string"
+        },
+        {
+            "name": "model",
+            "type": "string"
+        },
+        {
+            "name": "modelYear",
+            "type": "int"
+        },
+        {
+            "name": "dateUpdateUtc",
+            "type": "long",
+            "logicalType": "date"
+        }
+    ]
+}
